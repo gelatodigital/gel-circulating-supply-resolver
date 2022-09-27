@@ -1,0 +1,151 @@
+{
+  "address": "0x54D6CFC43299115535020173b7C00765E521Eca1",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "GEL",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "GEL_DAO",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "GEL_VESTING_HUB_HELPER",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "GEL_VESTING_TREASURY",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "VESTING_DURATION",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "VESTING_START",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "returnCirculatingGelSupply",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "circulatingSupplyWei",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "circulatingSupply",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x9fbb8248a989a986e567cf13e6351a97419c73e2699cbac98b9c46fa361d040b",
+  "receipt": {
+    "to": null,
+    "from": "0xAabB54394E8dd61Dd70897E9c80be8de7C64A895",
+    "contractAddress": "0x54D6CFC43299115535020173b7C00765E521Eca1",
+    "transactionIndex": 8,
+    "gasUsed": "441487",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x5263828bf6b5866ca3e2961a9ec2b5a9262c645185fd2c967511685929e6a6c2",
+    "transactionHash": "0x9fbb8248a989a986e567cf13e6351a97419c73e2699cbac98b9c46fa361d040b",
+    "logs": [],
+    "blockNumber": 15626993,
+    "cumulativeGasUsed": "1155668",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "a39acedf261c11129527dfc8fc3c64cd",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"GEL\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"GEL_DAO\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"GEL_VESTING_HUB_HELPER\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"GEL_VESTING_TREASURY\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"VESTING_DURATION\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"VESTING_START\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"returnCirculatingGelSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"circulatingSupplyWei\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"circulatingSupply\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"author\":\"hilmarx (Hilmar Orth) - Gelato Network\",\"details\":\"Returns the current circluating GEL token supply\",\"kind\":\"dev\",\"methods\":{\"returnCirculatingGelSupply()\":{\"returns\":{\"circulatingSupply\":\"Parsed circulating supply of GEL.\",\"circulatingSupplyWei\":\"Circulating supply of GEL in wei.\"}}},\"title\":\"GelCirculatingSupplyResolver\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"returnCirculatingGelSupply()\":{\"notice\":\"Returns the current circulating GEL supply\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/GelCirculatingSupplyResolver.sol\":\"GelCirculatingSupplyResolver\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"@openzeppelin/contracts/token/ERC20/IERC20.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n// OpenZeppelin Contracts (last updated v4.6.0) (token/ERC20/IERC20.sol)\\n\\npragma solidity ^0.8.0;\\n\\n/**\\n * @dev Interface of the ERC20 standard as defined in the EIP.\\n */\\ninterface IERC20 {\\n    /**\\n     * @dev Emitted when `value` tokens are moved from one account (`from`) to\\n     * another (`to`).\\n     *\\n     * Note that `value` may be zero.\\n     */\\n    event Transfer(address indexed from, address indexed to, uint256 value);\\n\\n    /**\\n     * @dev Emitted when the allowance of a `spender` for an `owner` is set by\\n     * a call to {approve}. `value` is the new allowance.\\n     */\\n    event Approval(address indexed owner, address indexed spender, uint256 value);\\n\\n    /**\\n     * @dev Returns the amount of tokens in existence.\\n     */\\n    function totalSupply() external view returns (uint256);\\n\\n    /**\\n     * @dev Returns the amount of tokens owned by `account`.\\n     */\\n    function balanceOf(address account) external view returns (uint256);\\n\\n    /**\\n     * @dev Moves `amount` tokens from the caller's account to `to`.\\n     *\\n     * Returns a boolean value indicating whether the operation succeeded.\\n     *\\n     * Emits a {Transfer} event.\\n     */\\n    function transfer(address to, uint256 amount) external returns (bool);\\n\\n    /**\\n     * @dev Returns the remaining number of tokens that `spender` will be\\n     * allowed to spend on behalf of `owner` through {transferFrom}. This is\\n     * zero by default.\\n     *\\n     * This value changes when {approve} or {transferFrom} are called.\\n     */\\n    function allowance(address owner, address spender) external view returns (uint256);\\n\\n    /**\\n     * @dev Sets `amount` as the allowance of `spender` over the caller's tokens.\\n     *\\n     * Returns a boolean value indicating whether the operation succeeded.\\n     *\\n     * IMPORTANT: Beware that changing an allowance with this method brings the risk\\n     * that someone may use both the old and the new allowance by unfortunate\\n     * transaction ordering. One possible solution to mitigate this race\\n     * condition is to first reduce the spender's allowance to 0 and set the\\n     * desired value afterwards:\\n     * https://github.com/ethereum/EIPs/issues/20#issuecomment-263524729\\n     *\\n     * Emits an {Approval} event.\\n     */\\n    function approve(address spender, uint256 amount) external returns (bool);\\n\\n    /**\\n     * @dev Moves `amount` tokens from `from` to `to` using the\\n     * allowance mechanism. `amount` is then deducted from the caller's\\n     * allowance.\\n     *\\n     * Returns a boolean value indicating whether the operation succeeded.\\n     *\\n     * Emits a {Transfer} event.\\n     */\\n    function transferFrom(\\n        address from,\\n        address to,\\n        uint256 amount\\n    ) external returns (bool);\\n}\\n\",\"keccak256\":\"0x9750c6b834f7b43000631af5cc30001c5f547b3ceb3635488f140f60e897ea6b\",\"license\":\"MIT\"},\"contracts/GelCirculatingSupplyResolver.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\npragma solidity ^0.8.0;\\n\\nimport {IERC20} from \\\"@openzeppelin/contracts/token/ERC20/IERC20.sol\\\";\\nimport {\\n    IERC2ILinearVestingHubHelper\\n} from \\\"./interfaces/ILinearVestingHubHelper.sol\\\";\\n\\n/**\\n * @title GelCirculatingSupplyResolver\\n * @dev Returns the current circluating GEL token supply\\n * @author hilmarx (Hilmar Orth) - Gelato Network\\n */\\ncontract GelCirculatingSupplyResolver {\\n    address public constant GEL_DAO =\\n        0x4C64ce7C270E1316692067771bbb0DCe6Ec69B7C;\\n    address public constant GEL_VESTING_HUB_HELPER =\\n        0x766F4416dc7BB3a2a38240176F1427E01291FAeE;\\n    address public constant GEL_VESTING_TREASURY =\\n        0x163407FDA1a93941358c1bfda39a868599553b6D;\\n    address public constant GEL = 0x15b7c0c907e4C6b9AdaAaabC300C08991D6CEA05;\\n    uint256 public constant VESTING_START = 1631548800; // 13 September 2021 16:00:00 GMT\\n    uint256 public constant VESTING_DURATION = 126230400; // 4 years\\n\\n    /**\\n     * @notice Returns the current circulating GEL supply\\n     * @return circulatingSupplyWei Circulating supply of GEL in wei.\\n     * @return circulatingSupply Parsed circulating supply of GEL.\\n     */\\n    function returnCirculatingGelSupply()\\n        external\\n        view\\n        returns (uint256 circulatingSupplyWei, uint256 circulatingSupply)\\n    {\\n        circulatingSupplyWei = IERC20(GEL).totalSupply();\\n\\n        uint256 gelDaoBalance = IERC20(GEL).balanceOf(GEL_DAO);\\n        uint256 gelVestingTreasuryBalance = IERC20(GEL).balanceOf(\\n            GEL_VESTING_TREASURY\\n        );\\n\\n        // DAOs token are deducted from circulating supply\\n        circulatingSupplyWei -= gelDaoBalance;\\n\\n        // Deduct locked tokens in GEL Vesting Hub\\n        uint256 lockedVestingHubTokens = IERC2ILinearVestingHubHelper(\\n            GEL_VESTING_HUB_HELPER\\n        ).calcTotalUnvestedTokens();\\n\\n        circulatingSupplyWei -= lockedVestingHubTokens;\\n\\n        // Deduct to be locked tokens in GEL Vesting Treasury\\n        uint256 lockedGelVestinTreasuryTokens = gelVestingTreasuryBalance -\\n            _getVestedTkns(\\n                gelVestingTreasuryBalance,\\n                VESTING_START,\\n                VESTING_DURATION\\n            );\\n        circulatingSupplyWei -= lockedGelVestinTreasuryTokens;\\n        circulatingSupply = circulatingSupplyWei / 10**18;\\n    }\\n\\n    // solhint-disable not-rely-on-time\\n    function _getVestedTkns(\\n        uint256 tknBalance_,\\n        uint256 startDate_,\\n        uint256 duration_\\n    ) private view returns (uint256) {\\n        return ((tknBalance_) * (block.timestamp - startDate_)) / duration_;\\n    }\\n}\\n\",\"keccak256\":\"0xf82107466794dfe9e6445b3c9adf6a2f1111d1ad45a34b1b9825e6d10931efae\",\"license\":\"UNLICENSED\"},\"contracts/interfaces/ILinearVestingHubHelper.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n\\npragma solidity ^0.8.0;\\n\\n/**\\n * @dev Interface of the ERC20 standard as defined in the EIP.\\n */\\ninterface IERC2ILinearVestingHubHelper {\\n    function calcTotalUnvestedTokens()\\n        external\\n        view\\n        returns (uint256 totalUnvestedTkn);\\n}\\n\",\"keccak256\":\"0xdbe9fd248516015946878f6e5d4abb02d5a0fd76fabff30234346e93991072c0\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50610709806100206000396000f3fe608060405234801561001057600080fd5b506004361061007d5760003560e01c8063612367551161005b57806361236755146100dd57806388947877146100fb578063bba2141014610119578063cfd11c4f146101375761007d565b8063290b809414610082578063300f03ab146100a15780634cfc4d30146100bf575b600080fd5b61008a610155565b6040516100989291906104d0565b60405180910390f35b6100a961041a565b6040516100b6919061053a565b60405180910390f35b6100c7610432565b6040516100d49190610555565b60405180910390f35b6100e561043a565b6040516100f2919061053a565b60405180910390f35b610103610452565b604051610110919061053a565b60405180910390f35b61012161046a565b60405161012e919061053a565b60405180910390f35b61013f610482565b60405161014c9190610555565b60405180910390f35b6000807315b7c0c907e4c6b9adaaaabc300c08991d6cea0573ffffffffffffffffffffffffffffffffffffffff166318160ddd6040518163ffffffff1660e01b8152600401602060405180830381865afa1580156101b7573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906101db91906105a1565b915060007315b7c0c907e4c6b9adaaaabc300c08991d6cea0573ffffffffffffffffffffffffffffffffffffffff166370a08231734c64ce7c270e1316692067771bbb0dce6ec69b7c6040518263ffffffff1660e01b8152600401610240919061053a565b602060405180830381865afa15801561025d573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061028191906105a1565b905060007315b7c0c907e4c6b9adaaaabc300c08991d6cea0573ffffffffffffffffffffffffffffffffffffffff166370a0823173163407fda1a93941358c1bfda39a868599553b6d6040518263ffffffff1660e01b81526004016102e6919061053a565b602060405180830381865afa158015610303573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061032791906105a1565b9050818461033591906105fd565b9350600073766f4416dc7bb3a2a38240176f1427e01291faee73ffffffffffffffffffffffffffffffffffffffff1663a93aeb1c6040518163ffffffff1660e01b8152600401602060405180830381865afa158015610398573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906103bc91906105a1565b905080856103ca91906105fd565b945060006103e18363613f75806307861f8061048a565b836103ec91906105fd565b905080866103fa91906105fd565b9550670de0b6b3a7640000866104109190610660565b9450505050509091565b7315b7c0c907e4c6b9adaaaabc300c08991d6cea0581565b6307861f8081565b734c64ce7c270e1316692067771bbb0dce6ec69b7c81565b73163407fda1a93941358c1bfda39a868599553b6d81565b73766f4416dc7bb3a2a38240176f1427e01291faee81565b63613f758081565b600081834261049991906105fd565b856104a49190610691565b6104ae9190610660565b90509392505050565b6000819050919050565b6104ca816104b7565b82525050565b60006040820190506104e560008301856104c1565b6104f260208301846104c1565b9392505050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000610524826104f9565b9050919050565b61053481610519565b82525050565b600060208201905061054f600083018461052b565b92915050565b600060208201905061056a60008301846104c1565b92915050565b600080fd5b61057e816104b7565b811461058957600080fd5b50565b60008151905061059b81610575565b92915050565b6000602082840312156105b7576105b6610570565b5b60006105c58482850161058c565b91505092915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b6000610608826104b7565b9150610613836104b7565b925082820390508181111561062b5761062a6105ce565b5b92915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601260045260246000fd5b600061066b826104b7565b9150610676836104b7565b92508261068657610685610631565b5b828204905092915050565b600061069c826104b7565b91506106a7836104b7565b92508282026106b5816104b7565b915082820484148315176106cc576106cb6105ce565b5b509291505056fea26469706673582212208416b52ac773723d2b79e353219daeacca4ef5a87986ace2c9e26362a23a87d064736f6c63430008110033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061007d5760003560e01c8063612367551161005b57806361236755146100dd57806388947877146100fb578063bba2141014610119578063cfd11c4f146101375761007d565b8063290b809414610082578063300f03ab146100a15780634cfc4d30146100bf575b600080fd5b61008a610155565b6040516100989291906104d0565b60405180910390f35b6100a961041a565b6040516100b6919061053a565b60405180910390f35b6100c7610432565b6040516100d49190610555565b60405180910390f35b6100e561043a565b6040516100f2919061053a565b60405180910390f35b610103610452565b604051610110919061053a565b60405180910390f35b61012161046a565b60405161012e919061053a565b60405180910390f35b61013f610482565b60405161014c9190610555565b60405180910390f35b6000807315b7c0c907e4c6b9adaaaabc300c08991d6cea0573ffffffffffffffffffffffffffffffffffffffff166318160ddd6040518163ffffffff1660e01b8152600401602060405180830381865afa1580156101b7573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906101db91906105a1565b915060007315b7c0c907e4c6b9adaaaabc300c08991d6cea0573ffffffffffffffffffffffffffffffffffffffff166370a08231734c64ce7c270e1316692067771bbb0dce6ec69b7c6040518263ffffffff1660e01b8152600401610240919061053a565b602060405180830381865afa15801561025d573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061028191906105a1565b905060007315b7c0c907e4c6b9adaaaabc300c08991d6cea0573ffffffffffffffffffffffffffffffffffffffff166370a0823173163407fda1a93941358c1bfda39a868599553b6d6040518263ffffffff1660e01b81526004016102e6919061053a565b602060405180830381865afa158015610303573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061032791906105a1565b9050818461033591906105fd565b9350600073766f4416dc7bb3a2a38240176f1427e01291faee73ffffffffffffffffffffffffffffffffffffffff1663a93aeb1c6040518163ffffffff1660e01b8152600401602060405180830381865afa158015610398573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906103bc91906105a1565b905080856103ca91906105fd565b945060006103e18363613f75806307861f8061048a565b836103ec91906105fd565b905080866103fa91906105fd565b9550670de0b6b3a7640000866104109190610660565b9450505050509091565b7315b7c0c907e4c6b9adaaaabc300c08991d6cea0581565b6307861f8081565b734c64ce7c270e1316692067771bbb0dce6ec69b7c81565b73163407fda1a93941358c1bfda39a868599553b6d81565b73766f4416dc7bb3a2a38240176f1427e01291faee81565b63613f758081565b600081834261049991906105fd565b856104a49190610691565b6104ae9190610660565b90509392505050565b6000819050919050565b6104ca816104b7565b82525050565b60006040820190506104e560008301856104c1565b6104f260208301846104c1565b9392505050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000610524826104f9565b9050919050565b61053481610519565b82525050565b600060208201905061054f600083018461052b565b92915050565b600060208201905061056a60008301846104c1565b92915050565b600080fd5b61057e816104b7565b811461058957600080fd5b50565b60008151905061059b81610575565b92915050565b6000602082840312156105b7576105b6610570565b5b60006105c58482850161058c565b91505092915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b6000610608826104b7565b9150610613836104b7565b925082820390508181111561062b5761062a6105ce565b5b92915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601260045260246000fd5b600061066b826104b7565b9150610676836104b7565b92508261068657610685610631565b5b828204905092915050565b600061069c826104b7565b91506106a7836104b7565b92508282026106b5816104b7565b915082820484148315176106cc576106cb6105ce565b5b509291505056fea26469706673582212208416b52ac773723d2b79e353219daeacca4ef5a87986ace2c9e26362a23a87d064736f6c63430008110033",
+  "devdoc": {
+    "author": "hilmarx (Hilmar Orth) - Gelato Network",
+    "details": "Returns the current circluating GEL token supply",
+    "kind": "dev",
+    "methods": {
+      "returnCirculatingGelSupply()": {
+        "returns": {
+          "circulatingSupply": "Parsed circulating supply of GEL.",
+          "circulatingSupplyWei": "Circulating supply of GEL in wei."
+        }
+      }
+    },
+    "title": "GelCirculatingSupplyResolver",
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {
+      "returnCirculatingGelSupply()": {
+        "notice": "Returns the current circulating GEL supply"
+      }
+    },
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [],
+    "types": null
+  }
+}
